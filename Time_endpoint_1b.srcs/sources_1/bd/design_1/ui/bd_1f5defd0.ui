@@ -1,0 +1,50 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.459048",
+   "Default View_TopLeft":"-514,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port port-id_txd_0 -pg 1 -lvl 2 -x 930 -y 430 -defaultsOSRD
+preplace port port-id_rxd_0 -pg 1 -lvl 0 -x 0 -y 530 -defaultsOSRD
+preplace port port-id_txenb_0 -pg 1 -lvl 2 -x 930 -y 460 -defaultsOSRD
+preplace port port-id_ready_0 -pg 1 -lvl 2 -x 930 -y 550 -defaultsOSRD
+preplace port port-id_los_0 -pg 1 -lvl 0 -x 0 -y 500 -defaultsOSRD
+preplace port port-id_rst_0 -pg 1 -lvl 2 -x 930 -y 520 -defaultsOSRD
+preplace port port-id_clk_0 -pg 1 -lvl 2 -x 930 -y 490 -defaultsOSRD
+preplace portBus sys_stat_0 -pg 1 -lvl 2 -x 930 -y 400 -defaultsOSRD
+preplace portBus sys_addr_0 -pg 1 -lvl 0 -x 0 -y 470 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 460 -y 700 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 460 -y 860 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 1 -x 460 -y 270 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -x 460 -y 100 -defaultsOSRD
+preplace inst Time_stamp_axi_v1_0_0 -pg 1 -lvl 1 -x 460 -y 480 -defaultsOSRD
+preplace netloc Time_stamp_axi_v1_0_0_ready 1 1 1 880J 520n
+preplace netloc Time_stamp_axi_v1_0_0_rst 1 0 2 70 990 890J
+preplace netloc Time_stamp_axi_v1_0_0_sys_stat 1 1 1 900J 400n
+preplace netloc Time_stamp_axi_v1_0_0_txd 1 1 1 900J 430n
+preplace netloc Time_stamp_axi_v1_0_0_txenb 1 1 1 NJ 460
+preplace netloc los_0_1 1 0 1 NJ 500
+preplace netloc rxd_0_1 1 0 1 20J 520n
+preplace netloc sys_addr_0_1 1 0 1 20J 470n
+preplace netloc Time_stamp_axi_v1_0_0_clk 1 0 2 60 980 900
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 2 90 1030 840
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 2 30 1040 850
+preplace netloc clk_wiz_0_clk_out1 1 0 2 120 960 800
+preplace netloc clk_wiz_0_clk_out2 1 0 2 50 970 790
+preplace netloc proc_sys_reset_0_peripheral_reset 1 0 2 80 1020 870
+preplace netloc clk_wiz_0_locked 1 0 2 40 1000 810
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 0 2 110 1010 860
+preplace netloc smartconnect_0_M00_AXI 1 0 2 130 940 830
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 0 2 100 950 820
+levelinfo -pg 1 0 460 930
+pagesize -pg 1 -db -bbox -sgen -160 0 1070 1050
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_board_cnt":"2",
+   "da_bram_cntlr_cnt":"1",
+   "da_clkrst_cnt":"5",
+   "da_zynq_ultra_ps_e_cnt":"2"
+}
